@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+   :root{
+    --white: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+   }
+
+   body{
+    font-size: 15px;
+    font-family: 'outfit', sans-serif;
+   }
+
+   main{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--LightGray);
+    border-radius: 25px;
+    padding: 80px 10px;
+   }
+
+   span{
+    width: 300px;
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 25px;
+    box-shadow: 3px 5px 13px var(--LightGray);
+   }
+
+   img{
+    padding: 15px;
+    width: 90%;
+    border-radius: 25px;
+   }
+
+   .boldText{
+    font-weight: 700;
+    color: var(--DarkBlue);
+    font-size: 20px;
+    padding: 0 18px;
+   }
+
+   .textTwo{
+    font-weight: 400;
+    color: var(--GrayishBlue);
+    padding: 10px;
+   }
+
+   .attribution{
+    text-align: center;
+   }
+
+  @media  only screen and (min-width: 1440px) {
+    
+    main{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--LightGray);
+    border-radius: 25px;
+    padding: 130px 5px;
+   }
+
+  }
+  </style>
+</head>
+<body>
+
+  <main>
+    <span>
+    <img src="/images/image-qr-code.png" alt="QR-Code">
+    
+    <p class="boldText">Improve your front-end skills by building Projects</p>
+    <p class="textTwo">Scan the QR Code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </span> 
+  </main> 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/A-Siddeeq">As-Siddeeq</a>.
+  </div>
+</body>
+</html>
