@@ -24,7 +24,7 @@ This is my first Frontend Mentor Challenge.
 
 ## Author
 
-- Website - [Abubakar Sadiq](https://github.com/A-Siddeeq)
+- Website - [Abubakar Sadiq](https://github.com/A-Siddeeq/Codepen-qr-task)
 - Frontend Mentor - [@a-siddeeq](https://www.frontendmentor.io/profile/A-Siddeeq)
 
 ## Acknowledgments
